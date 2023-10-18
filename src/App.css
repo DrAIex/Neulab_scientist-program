@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(#5ab3af, #27535c);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-input {
+  color: black;
+  border: 1 none;
+  cursor: pointer;
+  background: none;
+  position: absolute;
+  bottom: 140px;
+  left: 35vw;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
