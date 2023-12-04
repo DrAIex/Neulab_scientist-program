@@ -12,6 +12,7 @@ function createWindow() {
       nodeIntegration: true,
     },
     frame: false,
+    icon: 'public/neulab-icon.png',
   });
 
   const startURL = isDev
