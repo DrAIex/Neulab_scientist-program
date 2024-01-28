@@ -2,13 +2,14 @@ module.exports = {
   packagerConfig: {
     asar: true,
   },
-  rebuildConfig: {},
+  rebuildConfig: {
+    autor: ['First Autor Aleksei Drobkov abkommem@gmail.com https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0', 'Second Autor Alim Bashirzade alim.bashirzade95@mail.ru']
+  },
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
       config: {
         iconUrl: 'public/neulab-icon.png',
-        author: 'Aleksei Drobkov abkommem@gmail.com https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0',
         description: "analysis of spontaneous alliterations",
         certificateFile: './cert.pfx',
         certificatePassword: process.env.CERTIFICATE_PASSWORD
