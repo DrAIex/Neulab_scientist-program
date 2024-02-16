@@ -3,7 +3,10 @@ module.exports = {
     asar: true,
   },
   rebuildConfig: {
-    autor: ['First Autor Aleksei Drobkov abkommem@gmail.com https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0', 'Second Autor Alim Bashirzade alim.bashirzade95@mail.ru']
+    autor: [
+      'First Autor Aleksei Drobkov abkommem@gmail.com https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0', 
+      'Second Autor Alim Bashirzade alim.bashirzade95@mail.ru'
+    ]
   },
   makers: [
     {

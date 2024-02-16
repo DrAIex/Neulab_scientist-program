@@ -6,15 +6,15 @@
   "main": "public/electron.js",
   "author": "Aleksei Drobkov abkommem@gmail.com",
   "contributors": [
-      {
-        "name": "Aleksei Drobkov",
-        "email": "abkommem@gmail.com",
-        "url": "https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0"
-      },
-     {
-       "name": "Alim Bashirzade",
-       "email": "alim.bashirzade95@mail.ru"
-     }
+    {
+      "name": "Aleksei Drobkov",
+      "email": "abkommem@gmail.com",
+      "url": "https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0"
+    },
+    {
+      "name": "Alim Bashirzade",
+      "email": "alim.bashirzade95@mail.ru"
+    }
   ],
   "homepage": "https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0",
   "scripts": {
