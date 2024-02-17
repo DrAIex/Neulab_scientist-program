@@ -3,7 +3,6 @@
   "version": "0.1.1",
   "description": "analysis of spontaneous alliterations",
   "private": true,
-  "main": "public/electron.js",
   "author": "Aleksei Drobkov abkommem@gmail.com",
   "contributors": [
     {
@@ -22,14 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dist": "electron-builder",
     "clean": "rm -rf dist",
-    "electron-start": "electron .",
-    "release": "npm run build && npm run electron-start",
-    "dev": "concurrently -k \"BROWSER=none npm start\" \"npm:electron-start\"",
-    "start-forge": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "dev": "npm run dev"
   },
   "build": {
     "appId": "neulabId",
@@ -72,7 +65,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "electron-squirrel-startup": "^1.0.0",
     "exceljs": "^4.3.0",
     "file-saver": "^2.0.5",
     "react": "^18.2.0",
@@ -81,15 +73,5 @@
     "redux": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@electron-forge/cli": "^6.4.2",
-    "@electron-forge/maker-deb": "^6.4.2",
-    "@electron-forge/maker-rpm": "^6.4.2",
-    "@electron-forge/maker-squirrel": "^6.4.2",
-    "@electron-forge/maker-zip": "^6.4.2",
-    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
-    "concurrently": "^8.2.1",
-    "electron": "^27.0.0",
-    "electron-is-dev": "^2.0.0"
-  }
+  "devDependencies": {}
 }
