@@ -15,14 +15,15 @@
       "email": "alim.bashirzade95@mail.ru"
     }
   ],
-  "homepage": "https://github.com/AlexeyDrobkovStrikesBack/neulab-release-0.1.0",
+  "homepage": "https://alexeydrobkovstrikesback.github.io/neulab-release-0.1.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf dist",
-    "dev": "npm run dev"
+    "dev": "npm run dev",
+    "deploy": "gh-pages -d build"
   },
   "build": {
     "appId": "neulabId",
