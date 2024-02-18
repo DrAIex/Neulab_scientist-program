@@ -8,14 +8,14 @@
     {
       "name": "Aleksei Drobkov",
       "email": "abkommem@gmail.com",
-      "url": "https://alexeydrobkovstrikesback.github.io/neulab-release-0.1.0/"
+      "url": "https://alexeydrobkovstrikesback.github.io/neulab-release-0.1.0"
     },
     {
       "name": "Alim Bashirzade",
       "email": "alim.bashirzade95@mail.ru"
     }
   ],
-  "homepage": "https://alexeydrobkovstrikesback.github.io/neulab-release-0.1.0/",
+  "homepage": "https://alexeydrobkovstrikesback.github.io/neulab-release-0.1.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
