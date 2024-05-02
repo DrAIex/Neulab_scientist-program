@@ -4,6 +4,11 @@
   "description": "analysis of spontaneous alliterations",
   "private": true,
   "releaseYear": "2024",
+  "author": {
+    "name" : "Aleksei Drobkov",
+    "email" : "abkommem@gmail.com",
+    "url" : "https://github.com/AlexeyDrobkovStrikesBack/demo-Neulab"
+  },
   "contributors": [
     {
       "name": "Aleksei Drobkov",
