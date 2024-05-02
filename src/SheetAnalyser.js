@@ -1,10 +1,5 @@
 import { createStore } from 'redux'
 
-// https://builtin.com/software-engineering-perspectives/exceljs
-// You can easily iterate all current cells in the column that is not empty:
-
-// if(id === 1) { // only first sheet - need to extend
-
 let sequence = [];
 const saveExArray = [];
 
@@ -24,15 +19,14 @@ const counterReducer = (state = { value: 0 }, action) => {
 let store = createStore(counterReducer)
 
 const locator = {
-    location: [
-      { id: 0, text: 'a'},
-      { id: 1, text: 'b'},
-      { id: 2, text: 'c'}
-    ]
+  location: [
+    { id: 0, text: 'a'},
+    { id: 1, text: 'b'},
+    { id: 2, text: 'c'}
+  ]
 }
 
 const spontaneousAlternations = sequence => {
-    // also need redux?
     if (!sequence.length > 2) return 0;
 
     const step = 3;
@@ -54,8 +48,6 @@ const rowAdding = (sheet, worksheet) => {
     const trialName = trial?.value && Number(trial.value) + 1
     const arenaName = arena?.value && Number(arena.value) + 1
     const percent = spontaneousAlternations(sequence, saveExArray)
-    console.log('percent', percent)
-    console.log('sequence', sequence)
     worksheet.addRow({
         trial: trialName,
         arena: arenaName,
@@ -72,8 +64,6 @@ export const sheetAnalyser = (sheet, worksheet) => {
     for (let i = 36; i <= totalRowCount; i = i + 50) {
         const targetRow = []
         const st = sheet.getRow(i)
-        // const cellJ = sheet.getCell("J" + i)
-        // console.log('cellJ', cellJ.value)
         for (let j = 10; j <= 12; j++) {
             const cell = st.getCell(j)
             targetRow.push(cell.value)            

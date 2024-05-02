@@ -9,7 +9,6 @@ const App = () => (
       <input
         type="file"
         id="ctrl"
-        // multiple
         className="App-input"
         onChange={() => inputFiles()}
         autoFocus
