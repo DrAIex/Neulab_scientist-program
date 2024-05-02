@@ -4,14 +4,7 @@
   "description": "analysis of spontaneous alliterations",
   "private": true,
   "releaseYear": "2024",
-  "author": {
-    "name" : "Aleksei Drobkov",
-    "email" : "abkommem@gmail.com",
-    "url" : "https://github.com/AlexeyDrobkovStrikesBack",
-    "url2" : "https://github.com/AlexeyDrobkov"
-
-  },
-  "contributors": [
+  "autors": [
     {
       "name": "Aleksei Drobkov",
       "email": "abkommem@gmail.com",
