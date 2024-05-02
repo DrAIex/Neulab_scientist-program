@@ -1,5 +1,5 @@
 import "./App.css";
-import { inputFiles } from "./Seq";
+import { inputFiles } from "./fileOperating";
 import logoDrNeuLabWhite from "./logoDrNeuLabWhite.png"
 
 const App = () => (

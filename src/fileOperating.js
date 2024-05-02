@@ -1,5 +1,5 @@
 import ExcelJS from 'exceljs'
-import { sheetAnalyser } from './SheetAnalyser'
+import { sheetAnalyser } from './sheetAnalyser'
 
 const FileSaver = require('file-saver');
 
