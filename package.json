@@ -1,7 +1,7 @@
 {
-  "name": "neulab-release",
+  "name": "neulab",
   "version": "0.1.1",
-  "description": "analysis of spontaneous alliterations",
+  "description": "Программа для оценки пространственной и рабочей памяти животных",
   "private": true,
   "releaseYear": "2024",
   "autors": [
@@ -27,7 +27,7 @@
   },
   "build": {
     "appId": "neulabId",
-    "productName": "Neulab App",
+    "productName": "neulab",
     "directories": {
       "output": "dist"
     },
